@@ -1,0 +1,324 @@
+
+efs-general
+multithread-write
+1
+[thread: 9
+total size: 10485762, total files: 9819, time elapsed: 461 s, 461857 ms, 461857499 μs, 461857499157 ns
+write/s: 21 ops, throughout: 22745 b/s, mean write time: 47 ms/op
+]
+thread: 0
+total size: 10485762, total files: 9819, time elapsed: 461 s, 461857 ms, 461857499 μs, 461857499157 ns
+write/s: 21 ops, throughout: 22745 b/s, mean write time: 47 ms/op
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+efs-general
+multithread-write
+5
+[thread: 11
+total size: 2097283, total files: 1936, time elapsed: 248 s, 248892 ms, 248892603 μs, 248892603359 ns
+write/s: 7 ops, throughout: 8456 b/s, mean write time: 128 ms/op
+, thread: 12
+total size: 2097325, total files: 1944, time elapsed: 249 s, 249821 ms, 249821175 μs, 249821175029 ns
+write/s: 7 ops, throughout: 8422 b/s, mean write time: 128 ms/op
+, thread: 9
+total size: 2098232, total files: 1959, time elapsed: 250 s, 250752 ms, 250752743 μs, 250752743165 ns
+write/s: 7 ops, throughout: 8392 b/s, mean write time: 128 ms/op
+, thread: 10
+total size: 2098800, total files: 1960, time elapsed: 250 s, 250832 ms, 250832611 μs, 250832611463 ns
+write/s: 7 ops, throughout: 8395 b/s, mean write time: 127 ms/op
+, thread: 13
+total size: 2098001, total files: 1963, time elapsed: 251 s, 251083 ms, 251083807 μs, 251083807139 ns
+write/s: 7 ops, throughout: 8358 b/s, mean write time: 127 ms/op
+]
+thread: 0
+total size: 10489641, total files: 9762, time elapsed: 1248 s, 1251380 ms, 1251382939 μs, 1251382940155 ns
+write/s: 7 ops, throughout: 8405 b/s, mean write time: 128 ms/op
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+efs-general
+multithread-write
+10
+[thread: 11
+total size: 1048964, total files: 954, time elapsed: 243 s, 243799 ms, 243799330 μs, 243799330833 ns
+write/s: 3 ops, throughout: 4316 b/s, mean write time: 255 ms/op
+, thread: 15
+total size: 1049166, total files: 959, time elapsed: 245 s, 245043 ms, 245043290 μs, 245043290554 ns
+write/s: 3 ops, throughout: 4282 b/s, mean write time: 255 ms/op
+, thread: 17
+total size: 1049981, total files: 963, time elapsed: 245 s, 245755 ms, 245755043 μs, 245755043530 ns
+write/s: 3 ops, throughout: 4285 b/s, mean write time: 255 ms/op
+, thread: 9
+total size: 1048784, total files: 969, time elapsed: 246 s, 246851 ms, 246851845 μs, 246851845576 ns
+write/s: 3 ops, throughout: 4263 b/s, mean write time: 254 ms/op
+, thread: 16
+total size: 1048949, total files: 969, time elapsed: 246 s, 246935 ms, 246935827 μs, 246935827190 ns
+write/s: 3 ops, throughout: 4264 b/s, mean write time: 254 ms/op
+, thread: 10
+total size: 1048816, total files: 971, time elapsed: 247 s, 247229 ms, 247229663 μs, 247229663179 ns
+write/s: 3 ops, throughout: 4246 b/s, mean write time: 254 ms/op
+, thread: 18
+total size: 1048819, total files: 982, time elapsed: 248 s, 248197 ms, 248197920 μs, 248197920010 ns
+write/s: 3 ops, throughout: 4229 b/s, mean write time: 252 ms/op
+, thread: 14
+total size: 1049729, total files: 982, time elapsed: 248 s, 248265 ms, 248265001 μs, 248265001831 ns
+write/s: 3 ops, throughout: 4232 b/s, mean write time: 252 ms/op
+, thread: 12
+total size: 1048686, total files: 992, time elapsed: 248 s, 248934 ms, 248934815 μs, 248934815035 ns
+write/s: 4 ops, throughout: 4228 b/s, mean write time: 250 ms/op
+, thread: 13
+total size: 1048821, total files: 992, time elapsed: 248 s, 248906 ms, 248906644 μs, 248906644597 ns
+write/s: 4 ops, throughout: 4229 b/s, mean write time: 250 ms/op
+]
+thread: 0
+total size: 10490715, total files: 9733, time elapsed: 2464 s, 2469914 ms, 2469919378 μs, 2469919382335 ns
+write/s: 3 ops, throughout: 4257 b/s, mean write time: 253 ms/op
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+efs-general
+multithread-write
+20
+[thread: 18
+total size: 525551, total files: 475, time elapsed: 250 s, 250193 ms, 250193264 μs, 250193264883 ns
+write/s: 1 ops, throughout: 2102 b/s, mean write time: 526 ms/op
+, thread: 19
+total size: 525162, total files: 479, time elapsed: 252 s, 252353 ms, 252353674 μs, 252353674351 ns
+write/s: 1 ops, throughout: 2083 b/s, mean write time: 526 ms/op
+, thread: 11
+total size: 525088, total files: 480, time elapsed: 252 s, 252714 ms, 252714105 μs, 252714105667 ns
+write/s: 1 ops, throughout: 2083 b/s, mean write time: 526 ms/op
+, thread: 10
+total size: 524314, total files: 480, time elapsed: 252 s, 252756 ms, 252756304 μs, 252756304279 ns
+write/s: 1 ops, throughout: 2080 b/s, mean write time: 526 ms/op
+, thread: 9
+total size: 524309, total files: 484, time elapsed: 254 s, 254164 ms, 254164400 μs, 254164400694 ns
+write/s: 1 ops, throughout: 2064 b/s, mean write time: 525 ms/op
+, thread: 16
+total size: 524305, total files: 485, time elapsed: 254 s, 254867 ms, 254867901 μs, 254867901179 ns
+write/s: 1 ops, throughout: 2064 b/s, mean write time: 525 ms/op
+, thread: 14
+total size: 524508, total files: 486, time elapsed: 255 s, 255181 ms, 255181323 μs, 255181323087 ns
+write/s: 1 ops, throughout: 2056 b/s, mean write time: 525 ms/op
+, thread: 23
+total size: 524785, total files: 490, time elapsed: 256 s, 256585 ms, 256585221 μs, 256585221758 ns
+write/s: 1 ops, throughout: 2049 b/s, mean write time: 523 ms/op
+, thread: 12
+total size: 525507, total files: 490, time elapsed: 256 s, 256665 ms, 256665161 μs, 256665161756 ns
+write/s: 1 ops, throughout: 2052 b/s, mean write time: 523 ms/op
+, thread: 22
+total size: 524771, total files: 491, time elapsed: 256 s, 256828 ms, 256828029 μs, 256828029217 ns
+write/s: 1 ops, throughout: 2049 b/s, mean write time: 523 ms/op
+, thread: 17
+total size: 524673, total files: 493, time elapsed: 257 s, 257349 ms, 257349399 μs, 257349399895 ns
+write/s: 1 ops, throughout: 2041 b/s, mean write time: 522 ms/op
+, thread: 15
+total size: 524350, total files: 494, time elapsed: 257 s, 257402 ms, 257402509 μs, 257402509599 ns
+write/s: 1 ops, throughout: 2040 b/s, mean write time: 521 ms/op
+, thread: 21
+total size: 524973, total files: 494, time elapsed: 257 s, 257534 ms, 257534760 μs, 257534760430 ns
+write/s: 1 ops, throughout: 2042 b/s, mean write time: 521 ms/op
+, thread: 28
+total size: 524949, total files: 495, time elapsed: 257 s, 257735 ms, 257735406 μs, 257735406609 ns
+write/s: 1 ops, throughout: 2042 b/s, mean write time: 520 ms/op
+, thread: 26
+total size: 525652, total files: 498, time elapsed: 258 s, 258160 ms, 258160527 μs, 258160527745 ns
+write/s: 1 ops, throughout: 2037 b/s, mean write time: 518 ms/op
+, thread: 24
+total size: 524384, total files: 498, time elapsed: 258 s, 258199 ms, 258199126 μs, 258199126906 ns
+write/s: 1 ops, throughout: 2032 b/s, mean write time: 518 ms/op
+, thread: 20
+total size: 525146, total files: 503, time elapsed: 258 s, 258714 ms, 258714433 μs, 258714433095 ns
+write/s: 1 ops, throughout: 2035 b/s, mean write time: 514 ms/op
+, thread: 13
+total size: 524460, total files: 506, time elapsed: 258 s, 258905 ms, 258905709 μs, 258905709833 ns
+write/s: 1 ops, throughout: 2032 b/s, mean write time: 511 ms/op
+, thread: 27
+total size: 524585, total files: 509, time elapsed: 259 s, 259111 ms, 259111273 μs, 259111273417 ns
+write/s: 1 ops, throughout: 2025 b/s, mean write time: 509 ms/op
+, thread: 25
+total size: 524404, total files: 524, time elapsed: 259 s, 259728 ms, 259728524 μs, 259728524417 ns
+write/s: 2 ops, throughout: 2024 b/s, mean write time: 495 ms/op
+]
+thread: 0
+total size: 10495876, total files: 9854, time elapsed: 5115 s, 5125143 ms, 5125151048 μs, 5125151058817 ns
+write/s: 1 ops, throughout: 2051 b/s, mean write time: 520 ms/op
+
+--------------------------------------------------------------------------------------------------------
+
+efs-general
+multithread-write
+50
+[thread: 57
+total size: 210498, total files: 181, time elapsed: 234 s, 234547 ms, 234547525 μs, 234547525187 ns
+write/s: 0 ops, throughout: 899 b/s, mean write time: 1295 ms/op
+, thread: 47
+total size: 211169, total files: 184, time elapsed: 238 s, 238002 ms, 238002790 μs, 238002790279 ns
+write/s: 0 ops, throughout: 887 b/s, mean write time: 1293 ms/op
+, thread: 9
+total size: 210573, total files: 187, time elapsed: 241 s, 241124 ms, 241124643 μs, 241124643624 ns
+write/s: 0 ops, throughout: 873 b/s, mean write time: 1289 ms/op
+, thread: 38
+total size: 210095, total files: 188, time elapsed: 243 s, 243176 ms, 243176075 μs, 243176075453 ns
+write/s: 0 ops, throughout: 864 b/s, mean write time: 1293 ms/op
+, thread: 55
+total size: 210587, total files: 188, time elapsed: 243 s, 243016 ms, 243016511 μs, 243016511103 ns
+write/s: 0 ops, throughout: 866 b/s, mean write time: 1292 ms/op
+, thread: 56
+total size: 210992, total files: 188, time elapsed: 243 s, 243181 ms, 243181988 μs, 243181988717 ns
+write/s: 0 ops, throughout: 868 b/s, mean write time: 1293 ms/op
+, thread: 23
+total size: 209990, total files: 189, time elapsed: 243 s, 243819 ms, 243819079 μs, 243819079464 ns
+write/s: 0 ops, throughout: 864 b/s, mean write time: 1290 ms/op
+, thread: 27
+total size: 210353, total files: 189, time elapsed: 243 s, 243744 ms, 243744319 μs, 243744319035 ns
+write/s: 0 ops, throughout: 865 b/s, mean write time: 1289 ms/op
+, thread: 37
+total size: 210777, total files: 191, time elapsed: 245 s, 245940 ms, 245940000 μs, 245940000349 ns
+write/s: 0 ops, throughout: 860 b/s, mean write time: 1287 ms/op
+, thread: 54
+total size: 209843, total files: 191, time elapsed: 246 s, 246157 ms, 246157297 μs, 246157297095 ns
+write/s: 0 ops, throughout: 853 b/s, mean write time: 1288 ms/op
+, thread: 50
+total size: 210885, total files: 191, time elapsed: 246 s, 246228 ms, 246228238 μs, 246228238330 ns
+write/s: 0 ops, throughout: 857 b/s, mean write time: 1289 ms/op
+, thread: 16
+total size: 209885, total files: 192, time elapsed: 246 s, 246854 ms, 246854212 μs, 246854212311 ns
+write/s: 0 ops, throughout: 853 b/s, mean write time: 1285 ms/op
+, thread: 41
+total size: 210254, total files: 192, time elapsed: 246 s, 246895 ms, 246895469 μs, 246895469374 ns
+write/s: 0 ops, throughout: 854 b/s, mean write time: 1285 ms/op
+, thread: 32
+total size: 209952, total files: 192, time elapsed: 247 s, 247015 ms, 247015692 μs, 247015692198 ns
+write/s: 0 ops, throughout: 850 b/s, mean write time: 1286 ms/op
+, thread: 28
+total size: 210568, total files: 192, time elapsed: 247 s, 247076 ms, 247076876 μs, 247076876115 ns
+write/s: 0 ops, throughout: 852 b/s, mean write time: 1286 ms/op
+, thread: 25
+total size: 210013, total files: 193, time elapsed: 247 s, 247337 ms, 247337300 μs, 247337300623 ns
+write/s: 0 ops, throughout: 850 b/s, mean write time: 1281 ms/op
+, thread: 43
+total size: 209975, total files: 193, time elapsed: 247 s, 247731 ms, 247731451 μs, 247731451036 ns
+write/s: 0 ops, throughout: 850 b/s, mean write time: 1283 ms/op
+, thread: 52
+total size: 210304, total files: 194, time elapsed: 249 s, 249002 ms, 249002595 μs, 249002595271 ns
+write/s: 0 ops, throughout: 844 b/s, mean write time: 1283 ms/op
+, thread: 19
+total size: 210045, total files: 195, time elapsed: 249 s, 249543 ms, 249543839 μs, 249543839352 ns
+write/s: 0 ops, throughout: 843 b/s, mean write time: 1279 ms/op
+, thread: 33
+total size: 210932, total files: 195, time elapsed: 249 s, 249763 ms, 249763399 μs, 249763399200 ns
+write/s: 0 ops, throughout: 847 b/s, mean write time: 1280 ms/op
+, thread: 45
+total size: 210377, total files: 195, time elapsed: 249 s, 249798 ms, 249798587 μs, 249798587788 ns
+write/s: 0 ops, throughout: 844 b/s, mean write time: 1281 ms/op
+, thread: 22
+total size: 211572, total files: 196, time elapsed: 250 s, 250326 ms, 250326360 μs, 250326360336 ns
+write/s: 0 ops, throughout: 846 b/s, mean write time: 1277 ms/op
+, thread: 29
+total size: 209864, total files: 196, time elapsed: 250 s, 250470 ms, 250470762 μs, 250470762308 ns
+write/s: 0 ops, throughout: 839 b/s, mean write time: 1277 ms/op
+, thread: 44
+total size: 210259, total files: 196, time elapsed: 250 s, 250534 ms, 250534223 μs, 250534223703 ns
+write/s: 0 ops, throughout: 841 b/s, mean write time: 1278 ms/op
+, thread: 13
+total size: 209858, total files: 197, time elapsed: 251 s, 251067 ms, 251067235 μs, 251067235939 ns
+write/s: 0 ops, throughout: 836 b/s, mean write time: 1274 ms/op
+, thread: 46
+total size: 210384, total files: 197, time elapsed: 251 s, 251045 ms, 251045250 μs, 251045250712 ns
+write/s: 0 ops, throughout: 838 b/s, mean write time: 1274 ms/op
+, thread: 12
+total size: 209720, total files: 198, time elapsed: 251 s, 251766 ms, 251766077 μs, 251766077742 ns
+write/s: 0 ops, throughout: 835 b/s, mean write time: 1271 ms/op
+, thread: 39
+total size: 211085, total files: 198, time elapsed: 251 s, 251986 ms, 251986216 μs, 251986216681 ns
+write/s: 0 ops, throughout: 840 b/s, mean write time: 1272 ms/op
+, thread: 14
+total size: 209938, total files: 199, time elapsed: 252 s, 252266 ms, 252266688 μs, 252266688469 ns
+write/s: 0 ops, throughout: 833 b/s, mean write time: 1267 ms/op
+, thread: 58
+total size: 210987, total files: 198, time elapsed: 251 s, 251967 ms, 251967368 μs, 251967368848 ns
+write/s: 0 ops, throughout: 840 b/s, mean write time: 1272 ms/op
+, thread: 18
+total size: 210519, total files: 200, time elapsed: 253 s, 253001 ms, 253001758 μs, 253001758757 ns
+write/s: 0 ops, throughout: 832 b/s, mean write time: 1265 ms/op
+, thread: 40
+total size: 209777, total files: 200, time elapsed: 252 s, 252932 ms, 252932763 μs, 252932763555 ns
+write/s: 0 ops, throughout: 832 b/s, mean write time: 1264 ms/op
+, thread: 53
+total size: 210161, total files: 200, time elapsed: 252 s, 252806 ms, 252806020 μs, 252806020422 ns
+write/s: 0 ops, throughout: 833 b/s, mean write time: 1264 ms/op
+, thread: 48
+total size: 210883, total files: 200, time elapsed: 253 s, 253028 ms, 253028243 μs, 253028243496 ns
+write/s: 0 ops, throughout: 833 b/s, mean write time: 1265 ms/op
+, thread: 15
+total size: 210795, total files: 201, time elapsed: 253 s, 253368 ms, 253368012 μs, 253368012536 ns
+write/s: 0 ops, throughout: 833 b/s, mean write time: 1260 ms/op
+, thread: 17
+total size: 209854, total files: 202, time elapsed: 253 s, 253771 ms, 253771285 μs, 253771285996 ns
+write/s: 0 ops, throughout: 829 b/s, mean write time: 1256 ms/op
+, thread: 34
+total size: 210750, total files: 202, time elapsed: 253 s, 253773 ms, 253773611 μs, 253773611553 ns
+write/s: 0 ops, throughout: 833 b/s, mean write time: 1256 ms/op
+, thread: 31
+total size: 211377, total files: 202, time elapsed: 253 s, 253854 ms, 253854755 μs, 253854755161 ns
+write/s: 0 ops, throughout: 835 b/s, mean write time: 1256 ms/op
+, thread: 10
+total size: 209932, total files: 203, time elapsed: 254 s, 254107 ms, 254107360 μs, 254107360851 ns
+write/s: 0 ops, throughout: 826 b/s, mean write time: 1251 ms/op
+, thread: 21
+total size: 210333, total files: 204, time elapsed: 254 s, 254411 ms, 254411271 μs, 254411271005 ns
+write/s: 0 ops, throughout: 828 b/s, mean write time: 1247 ms/op
+, thread: 35
+total size: 209797, total files: 204, time elapsed: 254 s, 254335 ms, 254335607 μs, 254335607324 ns
+write/s: 0 ops, throughout: 825 b/s, mean write time: 1246 ms/op
+, thread: 11
+total size: 209829, total files: 205, time elapsed: 254 s, 254555 ms, 254555038 μs, 254555038337 ns
+write/s: 0 ops, throughout: 826 b/s, mean write time: 1241 ms/op
+, thread: 51
+total size: 210025, total files: 204, time elapsed: 254 s, 254251 ms, 254251691 μs, 254251691254 ns
+write/s: 0 ops, throughout: 826 b/s, mean write time: 1246 ms/op
+, thread: 36
+total size: 210024, total files: 205, time elapsed: 254 s, 254463 ms, 254463633 μs, 254463633250 ns
+write/s: 0 ops, throughout: 826 b/s, mean write time: 1241 ms/op
+, thread: 20
+total size: 210121, total files: 205, time elapsed: 254 s, 254569 ms, 254569654 μs, 254569654789 ns
+write/s: 0 ops, throughout: 827 b/s, mean write time: 1241 ms/op
+, thread: 24
+total size: 209793, total files: 206, time elapsed: 254 s, 254743 ms, 254743945 μs, 254743945398 ns
+write/s: 0 ops, throughout: 825 b/s, mean write time: 1236 ms/op
+, thread: 26
+total size: 210335, total files: 208, time elapsed: 254 s, 254897 ms, 254897501 μs, 254897501786 ns
+write/s: 0 ops, throughout: 828 b/s, mean write time: 1225 ms/op
+, thread: 49
+total size: 210218, total files: 208, time elapsed: 254 s, 254762 ms, 254762878 μs, 254762878442 ns
+write/s: 0 ops, throughout: 827 b/s, mean write time: 1224 ms/op
+, thread: 30
+total size: 211456, total files: 209, time elapsed: 255 s, 255024 ms, 255024435 μs, 255024435137 ns
+write/s: 0 ops, throughout: 829 b/s, mean write time: 1220 ms/op
+, thread: 42
+total size: 210233, total files: 209, time elapsed: 254 s, 254870 ms, 254870690 μs, 254870690240 ns
+write/s: 0 ops, throughout: 827 b/s, mean write time: 1219 ms/op
+]
+thread: 0
+total size: 10517946, total files: 9852, time elapsed: 12469 s, 12492895 ms, 12492918214 μs, 12492918235931 ns
+write/s: 0 ops, throughout: 843 b/s, mean write time: 1268 ms/op
+
+
+--------------------------------------------------------------------------------------------------------
+
+rsync copy
+
+sent 11.04M bytes  received 185.42K bytes  22.07K bytes/sec
+total size is 10.49M  speedup is 0.93
+
+
+
+
